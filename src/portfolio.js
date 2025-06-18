@@ -117,7 +117,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Lycée National Léon Mba",
-      logo: require("./assets/images/leon mba.png"),
+      logo: require("./assets/images/leon mba.webp"),
       subHeader: "Baccalauréat Scientifique",
       duration: "2021 - 2022",
       desc: "Formation orientée mathématiques, physique et logique scientifique.",
@@ -173,7 +173,7 @@ const workExperiences = {
     {
       role: "Assistante Data",
       company: "MRH evolution",
-      companylogo: require("./assets/images/pigaliLogo.png"), // Remplace ou commente si tu n'as pas encore l'image
+      companylogo: require("./assets/images/mrh evolution.png"), // Remplace ou commente si tu n'as pas encore l'image
       date: "9 août 2024 – 15 septembre 2024",
       desc: "Automatisation et gestion de la base de données prospects pour les activités de formation.",
       descBullets: [
@@ -203,7 +203,7 @@ const bigProjects = {
   subtitle: "Quelques startups et entreprises pour lesquelles j’ai contribué à développer leur technologie",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/projet001.webp"),
       projectName: "Projet 001",
       projectDesc: "Nettoyage et structuration de base de données, suppression des doublons, création d’un dashboard interactif.",
       footerLink: [
@@ -214,7 +214,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/Gemalab.webp"),
       projectName: "Gemalab",
       projectDesc: "Automatisation de la base de données prospects via Access pour la startup J&M.",
       footerLink: [
@@ -240,7 +240,7 @@ const bigProjects = {
       ]
     }
   ],
-  image: require("./assets/images/opencvProjectImage.png"),
+  image: require("./assets/images/opencvProjectImage.webp"),
     projectName: "Traitement d'image avec OpenCV",
     projectDesc: "Exploration des fonctionnalités d'OpenCV : affichage d’images, conversion en niveaux de gris, détection de contours, flou gaussien, dessin de formes et sauvegarde des résultats.",
     footerLink: [
@@ -292,6 +292,20 @@ const achievementSection = {
       ]
     }
   ]
+};
+
+// Blog Section
+const blogSection = {
+  title: emoji("Blog 📝"),
+  subtitle: "J'écris sur l'intelligence artificielle, le développement et la technologie",
+  blogs: [
+    {
+      url: "https://medium.com/@symphoriaada", // Remplace par ton lien Medium ou blog
+      title: "Mon blog Medium",
+      description: "Découvrez mes derniers articles sur l'IA et la tech"
+    }
+  ],
+  display: false // Mettre false si tu n’as pas encore de blog
 };
 
 
