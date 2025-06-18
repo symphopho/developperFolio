@@ -4,8 +4,6 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-import Education from "./containers/education/Education";
-import resumeSection from "./containers/resume/ResumeSection";
 // Achievement Section    
 
 
@@ -38,7 +36,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/symphopho",
-  linkedin: "www.linkedin.com/in/symphoria-ada-be-70123b2a8",
+  linkedin: "https://www.linkedin.com/in/symphoria-ada-be-70123b2a8/",
   gmail: "symphoriada@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
@@ -162,7 +160,7 @@ const techStack = {
     }
   ],
   displayCodersrank: false // Laisser à false sauf si tu veux afficher tes badges CodersRank
-}
+};
 
 
 // Work experience section
@@ -203,7 +201,7 @@ const bigProjects = {
   subtitle: "Quelques startups et entreprises pour lesquelles j’ai contribué à développer leur technologie",
   projects: [
     {
-      image: require("./assets/images/projet001.webp"),
+      image: require("./assets/images/projet001.jpeg"),
       projectName: "Projet 001",
       projectDesc: "Nettoyage et structuration de base de données, suppression des doublons, création d’un dashboard interactif.",
       footerLink: [
@@ -214,7 +212,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Gemalab.webp"),
+      image: require("./assets/images/gemalab.png"),
       projectName: "Gemalab",
       projectDesc: "Automatisation de la base de données prospects via Access pour la startup J&M.",
       footerLink: [
@@ -229,7 +227,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/shChatbotLogo.png"), // mets ici l’image de ton chatbot (à créer si besoin)
+  // mets ici l’image de ton chatbot (à créer si besoin)
       projectName: "Chatbot S&H Beauté",
       projectDesc: "Développement d’un chatbot interactif en Python avec Gradio pour répondre aux questions fréquentes sur les produits et services de S&H Beauté.",
       footerLink: [
@@ -252,7 +250,6 @@ const bigProjects = {
   }
 ;
 
-display: true
 // Podcast Section
 
 const podcastSection = {
@@ -274,6 +271,7 @@ const contactInfo = {
   email_address: "symphoriada@gmail.com"
 };
 
+
 // Achievement Section
 const achievementSection = {
   title: emoji("Réalisations 🏆"),
@@ -283,7 +281,6 @@ const achievementSection = {
     
       title: "Projet de Chatbot",
       subtitle: "S&H Beauté",
-      image: require("./assets/images/shChatbotLogo.png"),
       footerLink: [
         {
           name: "Voir le projet",
@@ -310,14 +307,10 @@ const blogSection = {
 
 
 
-// Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false// Set true to display this section, defaults to false
-};
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 
 export {
   illustration,
@@ -332,10 +325,13 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails,
   isHireable,
-  resumeSection
-};
+
+// Déclarations (au moins une fois)
+// const talkSection = { /* ... */ }; // <-- définir si tu veux l'exporter
+
+// Export groupé
+// (Déjà exporté plus haut, donc cette section est redondante et doit être supprimée)
+}

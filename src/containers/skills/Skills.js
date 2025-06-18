@@ -7,6 +7,8 @@ import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
+
+
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
   if (!skillsSection.display) {
@@ -19,12 +21,7 @@ export default function Skills() {
           <div className="skills-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />
-            ) : (
-              <img
-                alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
-              ></img>
-            )}
+            ) : null}
           </div>
         </Fade>
         <Fade right duration={1000}>
