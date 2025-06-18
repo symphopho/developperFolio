@@ -1,83 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Edit meta tags for SEO -->
-    <title>DeveloperFolio | Developer Portfolio Template</title>
-    <meta name="title" content="DeveloperFolio | Developer Portfolio Template">
-    <meta name="description" content="Software Developer Portfolio Template that helps you showcase your work and skills as a software developer">
+    <!-- TITRE PERSONNALISÉ -->
+    <title>Portfolio - ADA-BE Symphoria Daria</title>
+    <meta name="title" content="Portfolio | ADA-BE Symphoria Daria">
+    <meta name="description" content="Portfolio d’ADA-BE Symphoria Daria, étudiante en Intelligence Artificielle spécialisée en automatisation de bases de données et gestion de projets.">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://developerfolio.js.org/">
-    <meta property="og:title" content="DeveloperFolio | Developer Portfolio Template">
-    <meta property="og:description" content="Software Developer Portfolio Template that helps you showcase your work and skills as a software developer">
-    <!-- Link to a hosted image -->
-    <!-- <meta property="og:image" content=""> -->
+    <!-- SEO réseaux sociaux -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Portfolio | ADA-BE Symphoria Daria" />
+    <meta property="og:description" content="Découvrez mes projets, mes compétences et mon parcours en intelligence artificielle." />
+    <meta property="og:image" content="dada.jpg" />
+    <meta property="og:url" content="https://votre-site.fr" />
     
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://developerfolio.js.org/">
-    <meta property="twitter:title" content="DeveloperFolio | Developer Portfolio Template">
-    <meta property="twitter:description" content="Software Developer Portfolio Template that helps you showcase your work and skills as a software developer">
-    <!-- Link to a hosted image -->
-    <!-- <meta property="twitter:image" content=""> -->
-
-    <meta name="msapplication-TileColor" content="#603cba">
-    <meta name="theme-color" content="#6c63ff" />
-
-    <!-- Customize icons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png?v8=qAJ44G5Bm7">
-    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png?v8=qAJ44G5Bm7">
-    <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg?v8=qAJ44G5Bm7" color="#885bd5">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico?v8=qAJ44G5Bm7">
-    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png?v8=qAJ44G5Bm7">
-	  <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    
-    <link rel=preload href="/static/media/Montserrat-Regular.ee653992.ttf" as="font" type="font/woff" crossorigin>
-    <link rel=preload href="/static/media/Agustina.21f233e1.woff" as="font" type="font/woff" crossorigin>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135618960-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-135618960-2');
-    </script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/css/all.min.css">
+    <div class="social-links">
+  <a href="https://facebook.com/symphoriadaria" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="30">
+  </a>
+  <a href="https://linkedin.com/in/symphoria-daria" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="30">
+  </a>
+</div>
 
 
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <!-- Icônes -->
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Script JavaScript -->
+    <script defer src="script.js"></script>
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <!-- En-tête -->
+    <header>
+      <h1>Bonjour, je suis <span class="highlight">ADA-BE Symphoria Daria</span></h1>
+      <p>Étudiante en Intelligence Artificielle, spécialisée en automatisation de bases de données et gestion de projets</p>
+      <p>Bienvenue dans mon univers</p>
+      <img src="favicon_192x192.png" alt="Photo de Symphoria" class="photo" />
+    </header>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!-- À propos -->
+    <section class="about">
+      <h2>À propos de moi</h2>
+      <p>
+        Je suis passionnée par la programmation et la résolution de problèmes. Grâce à mon esprit d'équipe et ma capacité à communiquer efficacement, j'ai mené à bien plusieurs projets collaboratifs avec des résultats réussis.
+      </p>
+    </section>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!-- Processus -->
+    <div class="process">
+      <h4>Mon Processus de Développement</h4>
+      <p>
+        En suivant la méthodologie Agile, j’ai appris à m’adapter aux besoins changeants du projet tout en collaborant efficacement avec mes coéquipiers.
+      </p>
+    </div>
+
+    <!-- Résumé de carrière -->
+    <section class="career-summary">
+      <h4>Résumé de carrière</h4>
+      <p>
+        Développeuse passionnée, rigoureuse, et dotée d’un bon sens de l’organisation, j’ai mené à bien plusieurs projets grâce à mon attention au détail et ma communication efficace.
+      </p>
+    </section>
+
+    <!-- Compétences -->
+    <section id="about">
+      <h2>Compétences</h2>
+      <ul>
+        <li><strong>Analyse & gestion de bases de données :</strong> PostgreSQL, SQL Workbench</li>
+        <li><strong>Programmation & Data Science :</strong> Python, R</li>
+        <li><strong>Automatisation & gestion de projet :</strong> Waalaxy, campagnes emailing, webinaires</li>
+        <li><strong>CRM & relation client :</strong> Dolibarr</li>
+        <li><strong>Organisation :</strong> rétroplanning, suivi client</li>
+        <li><strong>Excel avancé :</strong> Tableaux de bord, automatisation avec Access</li>
+      </ul>
+    </section>
+
+    <!-- Projets -->
+    <section id="projects">
+      <h2>Mes Projets</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <h3>Gemalab - Automatisation de Bases de Données</h3>
+          <p>Automatisation des bases de données via Access.</p>
+          <a href="https://drive.google.com/file/d/1baZhN6IKrKFus5-hAfiUiGXFEvNFAuvK/view?usp=drive_link" class="btn" target="_blank">Voir le projet</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Diagnostic IA avec CNN</h3>
+          <p>Modèle IA réalisé avec TensorFlow et Keras pour un projet de diagnostic intelligent.</p>
+          <a href="https://drive.google.com/file/d/19diu0ZPDEL5im9gcN9bGljODE1zBL9n5/view?usp=drive_link" class="btn" target="_blank">Voir le code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Tableau de Bord Excel</h3>
+          <p>Création d'un tableau de bord interactif pour l’analyse de données.</p>
+          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQNGZrJKu__ta1t0P8KgW-hyywm8a7uurnMD55TLvdmdTx0vYlPdeIsnqSi35h8-A/pubhtml" width="100%" height="400" style="border: none;"></iframe>
+          <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQNGZrJKu__ta1t0P8KgW-hyywm8a7uurnMD55TLvdmdTx0vYlPdeIsnqSi35h8-A/pubhtml" class="btn" target="_blank">Voir en plein écran</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Retrouvez-moi sur :</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/symphoria-ada-be-70123b2a8" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:symphoriada@gmail.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+      <p>© 2025 ADA-BE Symphoria Daria - Tous droits réservés.</p>
+    </footer>
   </body>
 </html>
